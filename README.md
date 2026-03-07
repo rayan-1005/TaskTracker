@@ -57,6 +57,8 @@ TaskTracker/
     ├── screenshots/
     └── README.md    # Frontend setup & screenshots
 ```
+- 📁 [**server/**](./server) — REST API setup, environment config, and API reference → [README](./server/README.md)
+- 📁 [**client/**](./client) — Frontend setup, screenshots, and test instructions → [README](./client/README.md)
 
 ---
 
