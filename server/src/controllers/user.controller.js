@@ -3,7 +3,7 @@ const userService = require("../services/user.service.js");
 const getAllUsers = async (req, res, next) => {
   try {
     const users = await userService.getAllUsers();
-    res.json(users);
+    res.json({ users });
   } catch (error) {
     next(error);
   }
@@ -18,7 +18,7 @@ const getUserById = async (req, res, next) => {
       error.statusCode = 403;
       throw error;
     }
-    res.json(user);
+    res.json({ user });
   } catch (error) {
     next(error);
   }
