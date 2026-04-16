@@ -1,4 +1,4 @@
-# TaskTracker — Full Stack Application
+# TaskTracker — Full Stack Application (Online Assessment)
 
 A full-stack User Management & Task Tracker built as a hiring assignment. Features JWT authentication, role-based access control, full task CRUD, and a clean minimal UI.
 
